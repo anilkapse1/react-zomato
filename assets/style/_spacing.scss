@@ -1,0 +1,25 @@
+@import "variables";
+@import "mixin";
+@import "media";
+
+
+.mb12{
+    margin-bottom: 12px!important;
+}
+
+
+@include media(min,$tablet){
+    .ml33{
+        margin-left: 33px!important;
+    }
+    .ml12{
+        margin-left: 12px;
+    }
+}
+
+@include media(max,$mobile){
+    .rmlr12{
+         margin-left: -12px;
+         margin-right: -12px;
+    }
+ }

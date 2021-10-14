@@ -1,0 +1,11 @@
+@import "variables";
+
+@mixin typography($color,$weight,$size,$style){
+    color:$color;
+    font-family: 'Poppins', sans-serif;
+    font-weight: $weight;
+    font-size: $size;
+    font-stretch: normal;
+    font-style: $style;
+    letter-spacing: normal;
+}

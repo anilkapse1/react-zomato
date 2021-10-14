@@ -1,0 +1,53 @@
+@import "variables";
+@import "mixin";
+@import "media";
+
+h1{
+    @include typography($ternary,bold!important,40px!important,normal);
+    @include media(max,$mobile){
+        @include typography($ternary,bold!important,20px!important,normal);
+    }
+}
+
+h2{
+    @include typography($ternary,600!important,30px!important,normal);
+    @include media(max,$mobile){
+        @include typography($ternary,600!important,20px!important,normal);
+    }
+}
+
+h3{
+
+}
+
+h4{
+    @include typography($ternary,600!important,18px!important,normal);
+    @include media(max,$mobile){
+        @include typography($ternary,600!important,16px!important,normal);
+    }
+}
+
+h5{
+    @include typography($ternary,600!important,16px!important,normal);
+    @include media(max,$mobile){
+        @include typography($ternary,500!important,13px!important,normal);
+    }
+
+}
+
+h6{
+
+}
+
+p{
+
+}
+
+label{
+    @include typography($label1,normal!important,14px!important,normal);
+}
+
+.label{
+    @include typography($label1!important,normal!important,14px!important,normal);
+}
+

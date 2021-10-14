@@ -1,0 +1,28 @@
+$mobile:767px;
+$tablet:768px;
+$deskTop:1024px;
+
+@import "variables";
+@import "mixin";
+
+@mixin media($minMax,$width) {
+        @media screen and (#{$minMax}-width:$width){
+            @content;
+        }
+}
+
+
+@include media(max,$mobile){
+   
+}
+
+
+@include media(min,$tablet){
+  
+
+}
+
+
+@include media(min,$deskTop){
+
+}

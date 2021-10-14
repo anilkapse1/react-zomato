@@ -1,0 +1,16 @@
+@import "typography";
+@import "media";
+
+.sub_heading1{
+    @include typography($ternary,normal!important,14px!important,normal);
+    margin-bottom: 11px;
+    display: inline-block;
+}
+
+.sub_heading2{
+    @include typography($ternary,normal!important,16px!important,normal);
+    display: inline-block;
+    @include media(max,$mobile){
+        @include typography($ternary,normal!important,13px!important,normal);
+    }
+}
