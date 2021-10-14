@@ -349,6 +349,20 @@ p, h1, h2, h3, h4, h5, h6, ul {
   letter-spacing: normal;
 }
 
+@media screen and (max-width: 767px) {
+  .product_search .login_area .login_info span {
+    width: 40px;
+    height: 40px;
+    color: #eb2929;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+  }
+}
+
 .product_search .login_area .login_info ul {
   margin-left: auto;
   list-style: none;
@@ -368,6 +382,18 @@ p, h1, h2, h3, h4, h5, h6, ul {
   font-style: normal;
   letter-spacing: normal;
   text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+  .product_search .login_area .login_info ul li a {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+  }
 }
 
 .product_search .login_area .login_info ul li:nth-child(2) a {

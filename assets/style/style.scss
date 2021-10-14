@@ -64,6 +64,13 @@ p,h1,h2,h3,h4,h5,h6,ul{
                 justify-content: center;
                 align-items: center;
                 @include typography($primary,600,33px,normal);
+                @include media(max,$mobile){
+                    width: 40px;
+                    height: 40px;
+                    @include typography($primary,600,26px,normal);
+    
+                }
+
                
             }
             ul{
@@ -75,6 +82,10 @@ p,h1,h2,h3,h4,h5,h6,ul{
                     a{
                         @include typography($white,500,16px,normal);
                         text-decoration: none;
+                        @include media(max,$mobile){
+                            @include typography($white,500,13px,normal);
+            
+                        }
                     }
                     &:nth-child(2) a{
                         border-radius: 3px;
