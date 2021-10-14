@@ -214,9 +214,11 @@ p,h1,h2,h3,h4,h5,h6,ul{
                             @include typography($label2,normal!important,16px!important,normal);
                             @include media(max,$mobile){
                                 @include typography($label2,normal!important,13px!important,normal);
-                                width: auto;
                             }
-                            width: 40%;
+                             @include media(min,$deskTop){
+                                width: 60%;
+                            }
+                            width: 100%;
                             display: flex;
                             justify-content: space-between;
                             flex-direction: row;

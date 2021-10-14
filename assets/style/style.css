@@ -564,7 +564,7 @@ p, h1, h2, h3, h4, h5, h6, ul {
   font-stretch: normal;
   font-style: normal;
   letter-spacing: normal;
-  width: 40%;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -588,7 +588,12 @@ p, h1, h2, h3, h4, h5, h6, ul {
     font-stretch: normal;
     font-style: normal;
     letter-spacing: normal;
-    width: auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .filter_section .result_area .card .card-body .card_bottom ul li {
+    width: 60%;
   }
 }
 
