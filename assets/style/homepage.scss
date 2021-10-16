@@ -144,7 +144,8 @@
             flex-basis: 40%;
             overflow: hidden;
             img{
-
+              max-width: max-content;
+              transform: translateX(-60px);
             }
           }
           .list_details{

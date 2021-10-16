@@ -574,6 +574,14 @@ label {
   overflow: hidden;
 }
 
+.landing_page .food_category .list .list_card .img_section img {
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
+  -webkit-transform: translateX(-60px);
+          transform: translateX(-60px);
+}
+
 .landing_page .food_category .list .list_card .list_details {
   padding: 25px 29px;
   -ms-flex-preferred-size: 60%;
