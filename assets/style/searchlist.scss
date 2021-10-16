@@ -1,0 +1,240 @@
+@import "variables";
+@import "typography";
+@import "mixin";
+@import "spacing";
+@import "classes";
+@import "media";
+
+.search_list {
+  .login_area {
+    padding: 17px 0px;
+    background-color: $defaultBG;
+    .login_info {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      align-items: center;
+
+      span {
+        width: 52px;
+        height: 52px;
+        background-color: $white;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        @include typography($primary, 600, 33px, normal);
+        @include media(max, $mobile) {
+          width: 40px;
+          height: 40px;
+          @include typography($primary, 600, 26px, normal);
+        }
+      }
+      ul {
+        margin-left: auto;
+        list-style: none;
+        li {
+          display: inline-block;
+          margin-left: 26px;
+          a {
+            @include typography($white, 500, 16px, normal);
+            text-decoration: none;
+            @include media(max, $mobile) {
+              @include typography($white, 500, 13px, normal);
+            }
+          }
+          &:nth-child(2) a {
+            border-radius: 3px;
+            border: solid 1px #fff;
+            padding: 11px 14px;
+          }
+        }
+      }
+    }
+  }
+  // login area css end
+
+  // filter css start
+  .filter_section {
+    margin-bottom: 100px;
+    // search label css start
+    .search_title {
+      h1 {
+        margin: 37px 0px 27px 0px;
+      }
+    }
+    // search label css end
+
+    // filter area css start
+    .filter_area {
+      box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+      background-color: $white;
+      padding: 17px 26px;
+
+      select {
+        &:focus {
+          box-shadow: none;
+        }
+      }
+      input[type="checkbox"] {
+        width: 18px;
+        height: 18px;
+        border-radius: 1.5px;
+        border: solid 1.5px #3a5075;
+        &:focus {
+          box-shadow: none;
+        }
+        &:checked {
+          background-color: #3a5075;
+        }
+      }
+      input[type="radio"] {
+        border: solid 1.5px #3a5075;
+        &:focus {
+          box-shadow: none;
+        }
+        &:checked {
+          background-color: #3a5075;
+        }
+      }
+    }
+    // filter area css end
+
+    // filter result css start
+    .result_area {
+      .card {
+        padding: 25px 32.6px 20px 35px;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+        background-color: #fff;
+        border: 0px;
+        margin-bottom: 34px;
+        @include media(max, $mobile) {
+          padding: 31px 25px 20px 25px;
+          &:nth-child(1) {
+            margin-top: 18px;
+          }
+        }
+        .card-body {
+          padding: 0px;
+          .card_top {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            align-items: center;
+            padding-bottom: 31px;
+            border-bottom: 1px solid #dedfe5;
+            @include media(max, $mobile) {
+              align-items: start;
+            }
+            @include media(min, $tablet) {
+              align-items: start;
+            }
+            .menu_pic {
+              width: 120px;
+              height: 120px;
+              overflow: hidden;
+              border-radius: 23px;
+              @include media(max, $mobile) {
+                width: 70px;
+                height: 70px;
+              }
+
+              @include media(min, $tablet) {
+                width: 100px;
+                height: 100px;
+              }
+
+              img {
+                max-width: fit-content;
+              }
+            }
+            ul {
+              padding-left: 41px;
+              margin: 0px;
+              @include media(max, $mobile) {
+                padding-left: 15px;
+                flex-basis: 74%;
+              }
+              @include media(min, $tablet) {
+                padding-left: 20px;
+                flex-basis: 68%;
+              }
+
+              span {
+                @include typography(
+                  $label2,
+                  normal!important,
+                  16px!important,
+                  normal
+                );
+                @include media(max, $mobile) {
+                  @include typography(
+                    $label2,
+                    normal!important,
+                    12px!important,
+                    normal
+                  );
+                }
+              }
+            }
+          }
+          .card_bottom {
+            ul {
+              margin-top: 26px;
+              padding: 0px;
+              li {
+                text-transform: uppercase;
+                @include typography(
+                  $label2,
+                  normal!important,
+                  16px!important,
+                  normal
+                );
+                @include media(max, $mobile) {
+                  @include typography(
+                    $label2,
+                    normal!important,
+                    13px!important,
+                    normal
+                  );
+                }
+                @include media(min, $deskTop) {
+                  width: 60%;
+                }
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                flex-direction: row;
+                flex-wrap: wrap;
+                span {
+                  min-width: 100px;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .pagination {
+        justify-content: center;
+        li {
+          margin-right: 12px;
+          a {
+            @include typography($label1, 500!important, 20px!important, normal);
+            &:focus {
+              box-shadow: none;
+            }
+          }
+        }
+        li.active {
+          a {
+            background-color: $label1;
+            color: #fff;
+          }
+        }
+      }
+    }
+    // filter result css end
+  }
+
+}

@@ -1,0 +1,604 @@
+h1 {
+  color: #192f60;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold !important;
+  font-size: 40px !important;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+}
+
+@media screen and (max-width: 767px) {
+  h1 {
+    color: #192f60;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold !important;
+    font-size: 20px !important;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+  }
+}
+
+h2 {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600 !important;
+  font-size: 36px !important;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+}
+
+@media screen and (max-width: 767px) {
+  h2 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+  }
+}
+
+h3 {
+  color: #192f60;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600 !important;
+  font-size: 30px !important;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+}
+
+@media screen and (max-width: 767px) {
+  h3 {
+    color: #192f60;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+  }
+}
+
+h4 {
+  color: #192f60;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600 !important;
+  font-size: 18px !important;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+}
+
+@media screen and (max-width: 767px) {
+  h4 {
+    color: #192f60;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+  }
+}
+
+h5 {
+  color: #192f60;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+}
+
+@media screen and (max-width: 767px) {
+  h5 {
+    color: #192f60;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500 !important;
+    font-size: 13px !important;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+  }
+}
+
+label {
+  color: #8c96ab;
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal !important;
+  font-size: 14px !important;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+}
+
+.label {
+  color: #8c96ab !important;
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal !important;
+  font-size: 14px !important;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+}
+
+.mb12 {
+  margin-bottom: 12px !important;
+}
+
+@media screen and (min-width: 768px) {
+  .ml33 {
+    margin-left: 33px !important;
+  }
+  .ml12 {
+    margin-left: 12px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .rmlr12 {
+    margin-left: -12px;
+    margin-right: -12px;
+  }
+}
+
+h1 {
+  color: #192f60;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold !important;
+  font-size: 40px !important;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+}
+
+@media screen and (max-width: 767px) {
+  h1 {
+    color: #192f60;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold !important;
+    font-size: 20px !important;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+  }
+}
+
+h2 {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600 !important;
+  font-size: 36px !important;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+}
+
+@media screen and (max-width: 767px) {
+  h2 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+  }
+}
+
+h3 {
+  color: #192f60;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600 !important;
+  font-size: 30px !important;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+}
+
+@media screen and (max-width: 767px) {
+  h3 {
+    color: #192f60;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+  }
+}
+
+h4 {
+  color: #192f60;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600 !important;
+  font-size: 18px !important;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+}
+
+@media screen and (max-width: 767px) {
+  h4 {
+    color: #192f60;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+  }
+}
+
+h5 {
+  color: #192f60;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+}
+
+@media screen and (max-width: 767px) {
+  h5 {
+    color: #192f60;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500 !important;
+    font-size: 13px !important;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+  }
+}
+
+label {
+  color: #8c96ab;
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal !important;
+  font-size: 14px !important;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+}
+
+.label {
+  color: #8c96ab !important;
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal !important;
+  font-size: 14px !important;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+}
+
+.sub_heading1 {
+  color: #192f60;
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal !important;
+  font-size: 14px !important;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  margin-bottom: 11px;
+  display: inline-block;
+}
+
+.sub_heading2 {
+  color: #192f60;
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal !important;
+  font-size: 16px !important;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  display: inline-block;
+}
+
+@media screen and (max-width: 767px) {
+  .sub_heading2 {
+    color: #192f60;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal !important;
+    font-size: 13px !important;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+  }
+}
+
+.landing_page {
+  /************************ 
+    ******logo area start***/
+}
+
+.landing_page .hero_section {
+  height: 480px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(157, 14, 14, 0)), to(#4f0707)), url("/assets/images/herohome.jpg");
+  background: linear-gradient(to bottom, rgba(157, 14, 14, 0), #4f0707), url("/assets/images/herohome.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /************************ 
+        ******login area start***/
+  /************************ 
+        ******logo area start***/
+}
+
+.landing_page .hero_section .login_area {
+  padding: 17px 0px;
+}
+
+.landing_page .hero_section .login_area .login_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.landing_page .hero_section .login_area .login_info span {
+  width: 52px;
+  height: 52px;
+  background-color: white;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #eb2929;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 33px;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+}
+
+@media screen and (max-width: 767px) {
+  .landing_page .hero_section .login_area .login_info span {
+    width: 40px;
+    height: 40px;
+    color: #eb2929;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+  }
+}
+
+.landing_page .hero_section .login_area .login_info ul {
+  margin-left: auto;
+  list-style: none;
+}
+
+.landing_page .hero_section .login_area .login_info ul li {
+  display: inline-block;
+  margin-left: 26px;
+}
+
+.landing_page .hero_section .login_area .login_info ul li a {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+  .landing_page .hero_section .login_area .login_info ul li a {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+  }
+}
+
+.landing_page .hero_section .login_area .login_info ul li:nth-child(2) a {
+  border-radius: 3px;
+  border: solid 1px #fff;
+  padding: 11px 14px;
+}
+
+.landing_page .hero_section .logo {
+  border: solid 1px #707070;
+  background-color: white;
+  width: 147px;
+  height: 147px;
+  border-radius: 50%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  .landing_page .hero_section .logo {
+    width: 90px;
+    height: 90px;
+  }
+}
+
+.landing_page .hero_section .logo span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #eb2929;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 70px;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+}
+
+@media screen and (max-width: 767px) {
+  .landing_page .hero_section .logo span {
+    color: #eb2929;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 42px;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+  }
+}
+
+.landing_page .hero_section h2 {
+  margin: 22px 0px 38px 0px;
+}
+
+.landing_page .hero_section input {
+  border-radius: unset;
+  padding: 20px;
+  color: #636f88 !important;
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal !important;
+  font-size: 15px !important;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+}
+
+.landing_page .hero_section input:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.landing_page .hero_section .search_field input {
+  position: relative;
+  padding-left: 60px;
+}
+
+.landing_page .hero_section .search_field input:before {
+  content: "\f002";
+  font-family: FontAwesome;
+  left: 10px;
+  position: absolute;
+  top: 17px;
+}
+
+.landing_page .food_category {
+  margin: 48px 0px 98px 0px;
+}
+
+.landing_page .food_category h4 {
+  color: #8c96ab;
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal !important;
+  font-size: 18px !important;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+}
+
+@media screen and (max-width: 767px) {
+  .landing_page .food_category h4 {
+    color: #8c96ab;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal !important;
+    font-size: 16px !important;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+  }
+}
+
+.landing_page .food_category .list {
+  margin-top: 33px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(300px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 30px;
+}
+
+.landing_page .food_category .list .list_card {
+  -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: white;
+  height: 160px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.landing_page .food_category .list .list_card .img_section {
+  height: inherit;
+  -ms-flex-preferred-size: 40%;
+      flex-basis: 40%;
+  overflow: hidden;
+}
+
+.landing_page .food_category .list .list_card .list_details {
+  padding: 25px 29px;
+  -ms-flex-preferred-size: 60%;
+      flex-basis: 60%;
+}
+
+.landing_page .food_category .list .list_card .list_details h4 {
+  color: #192f60;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600 !important;
+  font-size: 18px !important;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+}
+
+@media screen and (max-width: 767px) {
+  .landing_page .food_category .list .list_card .list_details h4 {
+    color: #192f60;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+  }
+}
+/*# sourceMappingURL=homepage.css.map */

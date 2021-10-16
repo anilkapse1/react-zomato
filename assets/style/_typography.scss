@@ -10,14 +10,17 @@ h1{
 }
 
 h2{
-    @include typography($ternary,600!important,30px!important,normal);
+    @include typography($white,600!important,36px!important,normal);
     @include media(max,$mobile){
-        @include typography($ternary,600!important,20px!important,normal);
+        @include typography($white,600!important,20px!important,normal);
     }
 }
 
 h3{
-
+    @include typography($ternary,600!important,30px!important,normal);
+    @include media(max,$mobile){
+        @include typography($ternary,600!important,20px!important,normal);
+    }
 }
 
 h4{

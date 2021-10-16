@@ -1,0 +1,166 @@
+@import "variables";
+@import "typography";
+@import "mixin";
+@import "spacing";
+@import "classes";
+@import "media";
+
+.landing_page{
+    .hero_section{
+        height: 480px;
+        background:linear-gradient(to bottom, rgba(157, 14, 14, 0), #4f0707), url('/assets/images/herohome.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+       
+        /************************ 
+        ******login area start***/
+        .login_area {
+            padding: 17px 0px;
+            .login_info {
+              display: flex;
+              flex-wrap: wrap;
+              flex-direction: row;
+              align-items: center;
+        
+              span {
+                width: 52px;
+                height: 52px;
+                background-color: $white;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                @include typography($primary, 600, 33px, normal);
+                @include media(max, $mobile) {
+                  width: 40px;
+                  height: 40px;
+                  @include typography($primary, 600, 26px, normal);
+                }
+              }
+              ul {
+                margin-left: auto;
+                list-style: none;
+                li {
+                  display: inline-block;
+                  margin-left: 26px;
+                  a {
+                    @include typography($white, 500, 16px, normal);
+                    text-decoration: none;
+                    @include media(max, $mobile) {
+                      @include typography($white, 500, 13px, normal);
+                    }
+                  }
+                  &:nth-child(2) a {
+                    border-radius: 3px;
+                    border: solid 1px #fff;
+                    padding: 11px 14px;
+                  }
+                }
+              }
+            }
+          }
+
+        /************************ 
+        ******logo area start***/
+        .logo{
+            border: solid 1px #707070;
+            background-color: $white;
+            width: 147px;
+            height: 147px;
+            border-radius: 50%;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            @include media(max, $mobile) {
+              width: 90px;
+              height: 90px;
+             
+            }
+            span{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                @include typography($primary, 600, 70px, normal);
+                @include media(max, $mobile) {
+                 
+                  @include typography($primary, 600, 42px, normal);
+                }
+            }
+        }
+        h2{
+            margin: 22px 0px 38px 0px;
+        }
+        input{
+          border-radius: unset;
+          padding: 20px;
+          @include typography($label2!important,normal!important,15px!important,normal);
+          &:focus{
+            box-shadow: none;
+          }
+        }
+        .search_field input{
+          position: relative;
+          padding-left: 60px;
+          &:before{
+            content: "\f002";  
+            font-family: FontAwesome;
+            left:10px;
+            position:absolute;
+            top:17px;
+         }
+        }
+    }
+    /************************ 
+    ******logo area start***/
+    .food_category{
+      margin: 48px 0px 98px 0px;
+      h4{
+        @include typography($label1,normal!important,18px!important,normal);
+        @include media(max,$mobile){
+            @include typography($label1,normal!important,16px!important,normal);
+        }
+      }
+      .list{
+        margin-top: 33px;
+        // display: flex;
+        // flex-direction: row;
+        // flex-wrap: wrap;
+        // justify-content: space-between;
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
+        grid-gap: 30px;
+        .list_card{
+          box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+          background-color: $white;
+          height: 160px;
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          // margin-bottom: 30px;
+          .img_section{
+            height: inherit;
+            flex-basis: 40%;
+            overflow: hidden;
+            img{
+
+            }
+          }
+          .list_details{
+            padding: 25px 29px;
+            flex-basis: 60%;
+            h4{
+              @include typography($ternary,600!important,18px!important,normal);
+              @include media(max,$mobile){
+                  @include typography($ternary,600!important,16px!important,normal);
+              }
+            }
+            span{
+
+            }
+          }
+        }
+      }
+    }
+}
