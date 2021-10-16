@@ -100,16 +100,19 @@
             box-shadow: none;
           }
         }
-        .search_field input{
+        .search_field{
           position: relative;
-          padding-left: 60px;
-          &:before{
-            content: "\f002";  
-            font-family: FontAwesome;
-            left:10px;
-            position:absolute;
-            top:17px;
-         }
+            input{
+              padding-left: 60px;
+            }
+          span{
+            position: absolute;
+            top:20px;
+            left: 23px;
+            i{
+              color:#74819e;
+            }
+          }  
         }
     }
     /************************ 

@@ -503,17 +503,22 @@ label {
           box-shadow: none;
 }
 
-.landing_page .hero_section .search_field input {
+.landing_page .hero_section .search_field {
   position: relative;
+}
+
+.landing_page .hero_section .search_field input {
   padding-left: 60px;
 }
 
-.landing_page .hero_section .search_field input:before {
-  content: "\f002";
-  font-family: FontAwesome;
-  left: 10px;
+.landing_page .hero_section .search_field span {
   position: absolute;
-  top: 17px;
+  top: 20px;
+  left: 23px;
+}
+
+.landing_page .hero_section .search_field span i {
+  color: #74819e;
 }
 
 .landing_page .food_category {
