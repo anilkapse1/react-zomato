@@ -535,9 +535,8 @@ label {
 }
 
 .search_list .filter_section .result_area .card .card-body .card_top .menu_pic img {
-  max-width: -webkit-fit-content;
-  max-width: -moz-fit-content;
-  max-width: fit-content;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .search_list .filter_section .result_area .card .card-body .card_top ul {

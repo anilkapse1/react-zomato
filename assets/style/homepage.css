@@ -580,11 +580,8 @@ label {
 }
 
 .landing_page .food_category .list .list_card .img_section img {
-  max-width: -webkit-max-content;
-  max-width: -moz-max-content;
-  max-width: max-content;
-  -webkit-transform: translateX(-60px);
-          transform: translateX(-60px);
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .landing_page .food_category .list .list_card .list_details {
